@@ -1,8 +1,5 @@
 module Uebung1 where
 
--- kilian.gebhardt@tu-dresden.de
--- https://github.com/kilian-gebhardt
-
 -- Übung 1 a)
 fac :: Int -> Int
 fac 0 = 1
@@ -35,6 +32,7 @@ max' :: Int -> Int -> Int
 max' n m | n > m     = n
          | otherwise = m
 
+-- Übung 4
 bin 0 = 0
 bin 1 = 1
 bin n = summing 0 (n-1)
